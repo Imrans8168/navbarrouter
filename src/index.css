@@ -1,13 +1,140 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.mainMenu{
+  width: 100%;
+  background-color:#00FF00;
+  height: 5vh;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
 }
+.menu_style1,
+.menu_style2,
+.menu_style3{
+  margin-right: 40px;  
+
+}
+
+.setStyle{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  
+}
+
+.error{
+  background-color: rgb(209, 90, 90);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .setStyle{
+  background-color: grey;
+  color: #feceab;
+  
+}
+.setStyle2{
+  background-color: pink;
+  color: black;
+  height: 90vh;
+  font-size: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.setStyle3{
+  background-color: green;
+  color: #feceab;
+  height: 90vh;
+  font-size: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.mainMenu{
+  width: 100%;
+  background-color: #e84a5f;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.mainMenu a{
+  color: #092532;
+  font-size: 3rem;
+ 
+} 
+
+/* @media (max-width : 768px){
+
+  .setStyle ,
+.setStyle2 ,
+.setStyle3 {
+  height: 80vh;
+}
+
+.setStyle h1,
+.setStyle2 h1,
+.setStyle3 h1{
+  font-size: 5rem;
+}
+.setStyle p,
+.setStyle2 p,
+.setStyle3 p{
+  font-size: 3rem;
+}
+
+
+
+} */ 
